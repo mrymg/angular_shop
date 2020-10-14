@@ -1,0 +1,9 @@
+<div class="mt-2">
+    <h3>{{title}}</h3><hr>
+</div><ul>
+<div class="list-group" *ngFor = "let cat of categories">
+    <li class="list-group-item"><a routerLink="products/category/{{cat.id}}">{{cat.name}}</a></li>
+       
+    
+</div>
+</ul>
